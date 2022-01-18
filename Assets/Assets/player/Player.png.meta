@@ -1,0 +1,2412 @@
+fileFormatVersion: 2
+guid: f47050bf353b28041adfc9eeea7d6e23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -147940822254575638
+    second: Metroid-Samus_Left_Walk_0
+  - first:
+      213: -3483759183994889991
+    second: Metroid-Samus_Left_Walk_1
+  - first:
+      213: 2496132506056009427
+    second: Metroid-Samus_Left_Walk_2
+  - first:
+      213: -4818395183914877532
+    second: Metroid-Samus_Left_Walk_3
+  - first:
+      213: 5860911791547474960
+    second: Metroid-Samus_Left_Shoot_Up_Idle
+  - first:
+      213: 2657439664811890295
+    second: Metroid-Samus_Left_Idle
+  - first:
+      213: -4819386011304388573
+    second: Metroid-Samus_6
+  - first:
+      213: 3333912585758483319
+    second: Metroid-Samus_7
+  - first:
+      213: 3314581443043645326
+    second: Metroid-Samus_8
+  - first:
+      213: -4780172128837258058
+    second: Metroid-Samus_Right_Idle
+  - first:
+      213: 1019198856704382779
+    second: Metroid-Samus_Right_Shoot_Up_Idle
+  - first:
+      213: 6988258270527592256
+    second: Metroid-Samus_Right_3
+  - first:
+      213: -7462263330693245446
+    second: Metroid-Samus_Right_2
+  - first:
+      213: -5915259784879178407
+    second: Metroid-Samus_Right_1
+  - first:
+      213: 1577928509184702038
+    second: Metroid-Samus_Right_0
+  - first:
+      213: -3467764899209596419
+    second: Metroid-Samus_Left_Walk_Attack_0
+  - first:
+      213: -8646906942225604385
+    second: Metroid-Samus_Left_Walk_Attack_1
+  - first:
+      213: 7822517084403504214
+    second: Metroid-Samus_Left_Walk_Attack_2
+  - first:
+      213: -8092374118779932995
+    second: Metroid-Samus_Left_Walk_Attack_3
+  - first:
+      213: 5526671735777953623
+    second: Metroid-Samus_Left_Walk_Attack_4
+  - first:
+      213: 439422008161401365
+    second: Metroid-Samus_Right_Walk_Attack_4
+  - first:
+      213: -3817667506086337424
+    second: Metroid-Samus_Right_Walk_Attack_3
+  - first:
+      213: 16527657868686091
+    second: Metroid-Samus_Right_Walk_Attack_2
+  - first:
+      213: 133157106915946337
+    second: Metroid-Samus_Right_Walk_Attack_1
+  - first:
+      213: 1075212841096085792
+    second: Metroid-Samus_Right_Walk_Attack_0
+  - first:
+      213: 6918207516520335657
+    second: Metroid-Samus_25
+  - first:
+      213: 4994540235425944329
+    second: Metroid-Samus_26
+  - first:
+      213: -2783347134853853207
+    second: Metroid-Samus_27
+  - first:
+      213: 2084537895357250871
+    second: Metroid-Samus_28
+  - first:
+      213: -5535054089852610030
+    second: Metroid-Samus_29
+  - first:
+      213: -3518473935958006348
+    second: Metroid-Samus_30
+  - first:
+      213: -7703071430138546154
+    second: Metroid-Samus_Jump_0
+  - first:
+      213: 2264947460088062768
+    second: Metroid-Samus_Jump_2
+  - first:
+      213: -4772029886509436649
+    second: Metroid-Samus_Ball_0
+  - first:
+      213: 8934525197402016266
+    second: Metroid-Samus_Ball_1
+  - first:
+      213: 2557431927103385090
+    second: Metroid-Samus_35
+  - first:
+      213: 4977507865056853339
+    second: Metroid-Samus_36
+  - first:
+      213: -2678429057100522437
+    second: Metroid-Samus_37
+  - first:
+      213: 9175266453998640220
+    second: Metroid-Samus_38
+  - first:
+      213: -5596705547676402191
+    second: Metroid-Samus_39
+  - first:
+      213: 4322741985797624969
+    second: Metroid-Samus_40
+  - first:
+      213: 6761958523860463032
+    second: Metroid-Samus_Jump_1
+  - first:
+      213: -182708681867603544
+    second: Metroid-Samus_Jump_3
+  - first:
+      213: -5403517862899749947
+    second: Metroid-Samus_Ball_2
+  - first:
+      213: -7720944012764860421
+    second: Metroid-Samus_Ball_3
+  - first:
+      213: -2549206115678740126
+    second: Metroid-Samus_Ball_Hit
+  - first:
+      213: -5515296602710622165
+    second: Metroid-Samus_46
+  - first:
+      213: -2675376892841007103
+    second: Metroid-Samus_47
+  - first:
+      213: -5410560109689357384
+    second: Metroid-Samus_48
+  - first:
+      213: 3556881677259420116
+    second: Metroid-Samus_49
+  - first:
+      213: -6269860343482169414
+    second: Metroid-Samus_50
+  - first:
+      213: 4141394508589400440
+    second: Metroid-Samus_51
+  - first:
+      213: 9115807519449111183
+    second: Metroid-Samus_52
+  - first:
+      213: 7459513680524261150
+    second: Metroid-Samus_53
+  - first:
+      213: -6742206980605242022
+    second: Metroid-Samus_Hit
+  - first:
+      213: -7883032171000431826
+    second: Metroid-Samus_55
+  - first:
+      213: 602852804559287820
+    second: Metroid-Samus_56
+  - first:
+      213: -6260981342274180706
+    second: Metroid-Samus_57
+  - first:
+      213: 4502559078902112457
+    second: Metroid-Samus_58
+  - first:
+      213: 3519641346127680614
+    second: Metroid-Samus_59
+  - first:
+      213: -4806750944297240572
+    second: Metroid-Samus_60
+  - first:
+      213: -8941121623574865958
+    second: Metroid-Samus_61
+  - first:
+      213: -4362730274272315101
+    second: Metroid-Samus_62
+  - first:
+      213: 4729475134175900481
+    second: Metroid-Samus_63
+  - first:
+      213: 2761250904644348867
+    second: Metroid-Samus_64
+  - first:
+      213: 3477481670586513247
+    second: Metroid-Samus_65
+  - first:
+      213: 8393719713129317332
+    second: Metroid-Samus_66
+  - first:
+      213: -6801055864875960513
+    second: Metroid-Samus_67
+  - first:
+      213: 7387007138375361845
+    second: Metroid-Samus_68
+  - first:
+      213: -5340550507944606859
+    second: Metroid-Samus_69
+  - first:
+      213: -7086210394370930476
+    second: Metroid-Samus_70
+  - first:
+      213: 5033447447765649191
+    second: Metroid-Samus_71
+  - first:
+      213: -6513279486447460615
+    second: Metroid-Samus_72
+  - first:
+      213: -304526397981626870
+    second: Metroid-Samus_73
+  - first:
+      213: -5959738450825086277
+    second: Metroid-Samus_74
+  - first:
+      213: -263439615313927627
+    second: Metroid-Samus_75
+  - first:
+      213: 1398674831405861240
+    second: Metroid-Samus_76
+  - first:
+      213: 2103040989637021993
+    second: Metroid-Samus_77
+  - first:
+      213: 6607490542484748389
+    second: Metroid-Samus_78
+  - first:
+      213: -7143095734698042746
+    second: Metroid-Samus_79
+  - first:
+      213: -114459596715732639
+    second: Metroid-Samus_80
+  - first:
+      213: -1093470897531086610
+    second: Metroid-Samus_81
+  - first:
+      213: 4949265921623725872
+    second: Metroid-Samus_82
+  - first:
+      213: -3913191883337192853
+    second: Metroid-Samus__Climb_0
+  - first:
+      213: 2855164616365368069
+    second: Metroid-Samus_Climb_1
+  - first:
+      213: 1516091607173367360
+    second: Metroid-Samus_Climb_top
+  - first:
+      213: -5205505461418838530
+    second: Metroid-Samus_86
+  - first:
+      213: 886099221961375447
+    second: Metroid-Samus_87
+  - first:
+      213: 4936272355077143393
+    second: Metroid-Samus_88
+  - first:
+      213: 8757024143955934700
+    second: Metroid-Samus_89
+  - first:
+      213: 2073999320056741179
+    second: Metroid-Samus_90
+  - first:
+      213: -4782563475086099089
+    second: Metroid-Samus_91
+  - first:
+      213: -1323151251551019575
+    second: Metroid-Samus_92
+  - first:
+      213: 7049374815275670310
+    second: Metroid-Samus_93
+  - first:
+      213: -3226773592846483223
+    second: Metroid-Samus_94
+  - first:
+      213: -764642318028515222
+    second: Metroid-Samus_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9cb12b9862fdf0800000000000000
+      internalID: -147940822254575638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 177
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8dafada7337afc0800000000000000
+      internalID: -3483759183994889991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 177
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d626c70a4b04a220800000000000000
+      internalID: 2496132506056009427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 178
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adfc43fb1f912db0800000000000000
+      internalID: -4818395183914877532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Shoot_Up_Idle
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 178
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e513d834265150800000000000000
+      internalID: 5860911791547474960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Idle
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 178
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7765521ab4f11e420800000000000000
+      internalID: 2657439664811890295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 153
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32817b8f4f91e1db0800000000000000
+      internalID: -4819386011304388573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 153
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773a65a35df644e20800000000000000
+      internalID: 3333912585758483319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_8
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 153
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87d7b3d242cffd20800000000000000
+      internalID: 3314581443043645326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Idle
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 178
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4be6776ca69adb0800000000000000
+      internalID: -4780172128837258058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Shoot_Up_Idle
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 178
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375951d5fbe42e00800000000000000
+      internalID: 1019198856704382779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 178
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0479b752fd74bf060800000000000000
+      internalID: 6988258270527592256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 178
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af51b999907b07890800000000000000
+      internalID: -7462263330693245446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 178
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d7f18e096c8eda0800000000000000
+      internalID: -5915259784879178407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_0
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 178
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6567aee6e9de5e510800000000000000
+      internalID: 1577928509184702038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df13b0a723600efc0800000000000000
+      internalID: -3467764899209596419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 143
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0a8c603f3000880800000000000000
+      internalID: -8646906942225604385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 143
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6549b41c7d92f8c60800000000000000
+      internalID: 7822517084403504214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 143
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeae8c3d9c12bf80800000000000000
+      internalID: -8092374118779932995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Left_Walk_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 143
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578c3189aea2bc40800000000000000
+      internalID: 5526671735777953623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Walk_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 143
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51af2fefcf3291600800000000000000
+      internalID: 439422008161401365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Walk_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 143
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0742c2d41abe40bc0800000000000000
+      internalID: -3817667506086337424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Walk_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 143
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037b3831d7ba3000800000000000000
+      internalID: 16527657868686091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Walk_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 143
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f2b09eea119d100800000000000000
+      internalID: 133157106915946337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Right_Walk_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 143
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021887bd16cebee00800000000000000
+      internalID: 1075212841096085792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929c1a00519620060800000000000000
+      internalID: 6918207516520335657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 103
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90395f4c1eb205540800000000000000
+      internalID: 4994540235425944329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_27
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 103
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef4f6417809f59d0800000000000000
+      internalID: -2783347134853853207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 103
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dfb95eb24cdec10800000000000000
+      internalID: 2084537895357250871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 103
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a13c991a98f23b0800000000000000
+      internalID: -5535054089852610030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5a0cfc89edb2fc0800000000000000
+      internalID: -3518473935958006348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 110
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b12fc851391590800000000000000
+      internalID: -7703071430138546154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 110
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033e879f6b5be6f10800000000000000
+      internalID: 2264947460088062768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Ball_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711be0df91856cdb0800000000000000
+      internalID: -4772029886509436649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Ball_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 128
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a8ce3745fcdfb70800000000000000
+      internalID: 8934525197402016266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_35
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 102
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e6d30b9c2dd7320800000000000000
+      internalID: 2557431927103385090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_36
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 102
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d3d630809a31540800000000000000
+      internalID: 4977507865056853339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_37
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 102
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c5077a6fe44dad0800000000000000
+      internalID: -2678429057100522437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_38
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 102
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c952e2a38155f70800000000000000
+      internalID: 9175266453998640220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_39
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 102
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd3a4ef4f18452b0800000000000000
+      internalID: -5596705547676402191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_40
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 102
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9845227eee67dfb30800000000000000
+      internalID: 4322741985797624969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bda0a8737d47dd50800000000000000
+      internalID: 6761958523860463032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 110
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1d6effb63e67df0800000000000000
+      internalID: -182708681867603544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Ball_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 112
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbe16cf129d205b0800000000000000
+      internalID: -5403517862899749947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Ball_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 112
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffa874e352b9d490800000000000000
+      internalID: -7720944012764860421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Ball_Hit
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 112
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26127b74b866f9cd0800000000000000
+      internalID: -2549206115678740126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 77
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20c38c06fab573b0800000000000000
+      internalID: -5515296602710622165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_47
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 77
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1086ce504e62fdad0800000000000000
+      internalID: -2675376892841007103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 77
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb31122f34d9e4b0800000000000000
+      internalID: -5410560109689357384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_49
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 77
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1b4215a059c5130800000000000000
+      internalID: 3556881677259420116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_50
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 77
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7cf6b9c3bfcf8a0800000000000000
+      internalID: -6269860343482169414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_51
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 77
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871893f0d50397930800000000000000
+      internalID: 4141394508589400440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 79
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a599d24aad18e70800000000000000
+      internalID: 9115807519449111183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 79
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17b0d49b24858760800000000000000
+      internalID: 7459513680524261150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Hit
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 79
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a559dde097ede62a0800000000000000
+      internalID: -6742206980605242022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_55
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 77
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bfa8ea108d99290800000000000000
+      internalID: -7883032171000431826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_56
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 76
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06ba938e63cd5800800000000000000
+      internalID: 602852804559287820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 76
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99266c24a68c19a0800000000000000
+      internalID: -6260981342274180706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_58
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 76
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0ab2e60ad4c7e30800000000000000
+      internalID: 4502559078902112457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_59
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 76
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664d7bc082748d030800000000000000
+      internalID: 3519641346127680614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 42
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408b361cb7dfa4db0800000000000000
+      internalID: -4806750944297240572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_61
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 42
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad791456141cae380800000000000000
+      internalID: -8941121623574865958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_62
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 42
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329f7272ee77473c0800000000000000
+      internalID: -4362730274272315101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143f892a39872a140800000000000000
+      internalID: 4729475134175900481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_64
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 42
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb6d0b611fe15620800000000000000
+      internalID: 2761250904644348867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_65
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 42
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57bd38a72f724030800000000000000
+      internalID: 3477481670586513247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_66
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 40
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d344457b9b7c7470800000000000000
+      internalID: 8393719713129317332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_67
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 40
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f373b7479bbcd91a0800000000000000
+      internalID: -6801055864875960513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_68
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 40
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5356324badbe38660800000000000000
+      internalID: 7387007138375361845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_69
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 40
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5730ee4cb9d82e5b0800000000000000
+      internalID: -5340550507944606859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_70
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 42
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d807dfc039b8ad90800000000000000
+      internalID: -7086210394370930476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_71
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 42
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7270baf09c56ad540800000000000000
+      internalID: 5033447447765649191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_72
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 42
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fed57fd0de2c95a0800000000000000
+      internalID: -6513279486447460615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_73
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 42
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e639fbada16cbf0800000000000000
+      internalID: -304526397981626870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_74
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 42
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba755c7471ca4da0800000000000000
+      internalID: -5959738450825086277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_75
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 42
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532a27dc013185cf0800000000000000
+      internalID: -263439615313927627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879c9324957196310800000000000000
+      internalID: 1398674831405861240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_77
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921966f33a08f2d10800000000000000
+      internalID: 2103040989637021993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_78
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5687e81f3a582bb50800000000000000
+      internalID: 6607490542484748389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a17b86640aedc90800000000000000
+      internalID: -7143095734698042746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_80
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161df9c6a9b596ef0800000000000000
+      internalID: -114459596715732639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee89e6c130633d0f0800000000000000
+      internalID: -1093470897531086610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_82
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037145522235fa440800000000000000
+      internalID: 4949265921623725872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus__Climb_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aaebf07bc81b9c0800000000000000
+      internalID: -3913191883337192853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Climb_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503e8bd57159f9720800000000000000
+      internalID: 2855164616365368069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_Climb_top
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046058cb84d3a0510800000000000000
+      internalID: 1516091607173367360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_86
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef536cfdc5452c7b0800000000000000
+      internalID: -5205505461418838530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_87
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def1c03c8e0c4c00800000000000000
+      internalID: 886099221961375447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_88
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b34fead89218440800000000000000
+      internalID: 4936272355077143393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_89
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced330eef03378970800000000000000
+      internalID: 8757024143955934700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_90
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d3260a46358cc10800000000000000
+      internalID: 2073999320056741179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_91
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d3cb7cbdbe0adb0800000000000000
+      internalID: -4782563475086099089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_92
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd103372f833ade0800000000000000
+      internalID: -1323151251551019575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_93
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b57199b0964d160800000000000000
+      internalID: 7049374815275670310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_94
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e046c373823833d0800000000000000
+      internalID: -3226773592846483223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metroid-Samus_95
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68ddadecd17365f0800000000000000
+      internalID: -764642318028515222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
