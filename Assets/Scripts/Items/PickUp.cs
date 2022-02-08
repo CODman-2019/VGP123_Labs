@@ -8,16 +8,33 @@ public class PickUp : MonoBehaviour
     enum type
     {
         Energy,
-        Ammo,
-        Missle
+        Power,
+        Missle,
+        BlasterUG,
+        MorphUG,
     }
     [SerializeField]
     type pickupType;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.tag =="Player")
         {
+            switch (pickupType)
+            {
+                case type.Energy:
+                    break;
+                case type.Power:
+                    break;
+                case type.Missle:
+                    break;
+                case type.BlasterUG:
+                    break;
+                case type.MorphUG:
+                    break;
+            }
+
+
             Destroy(gameObject);
         }
     }
