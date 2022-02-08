@@ -8,7 +8,7 @@ public class PlayerProjectile : MonoBehaviour
     public float speed = 4f;
     public float lifeSpan = 2f;
 
-    [SerializeField]
+    
     // Start is called before the first frame update
     void Start()
     {

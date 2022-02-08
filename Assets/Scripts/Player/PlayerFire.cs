@@ -48,7 +48,8 @@ public class PlayerFire : MonoBehaviour
             else if (anim.GetInteger("direction") < 0)
             {
                 temp = Instantiate(projectile, leftShotPosition.transform.position, leftShotPosition.transform.rotation);
-                temp.GetComponent<Rigidbody2D>().velocity *= -1;
+                //temp.GetComponent<Rigidbody2D>().velocity *= -1;
+                temp.speed *= -1;
             }
     } 
 }
