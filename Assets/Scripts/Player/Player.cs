@@ -35,28 +35,19 @@ public class Player : MonoBehaviour
         bool jump = Input.GetButtonDown("Jump");
         //anim.SetFloat()
 
-        switch (xDir)
+        if(xDir < 0 && anim.GetInteger("direction") == 1 || xDir > 0 && anim.GetInteger("direction") == -1)
         {
-            case 1:
-            anim.SetInteger("direction", 1);
-            anim.SetFloat("xVel", 1);
-                break;
-            case -1:
-            anim.SetInteger("direction", -1);
-            anim.SetFloat("xVel", -1);
-                break;
-            default:
-            anim.SetFloat("xVel", 0);
-                break;
+            anim.SetInteger("direction", -anim.GetInteger("direction"));
+            anim.SetFloat("xVel", 1 * xDir);
         }
-
+        else if( xDir == 0 && anim.GetFloat("xVel") != 0)
+        {
+            anim.SetFloat("xVel", 0);
+        }
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundMask);
 
-        if(isGrounded)
-            anim.SetBool("isGrounded", true);
-        else
-            anim.SetBool("isGrounded", false);
+        anim.SetBool("isGrounded", isGrounded);
         
         if (isGrounded && jump)
         {
@@ -64,16 +55,33 @@ public class Player : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
 
-        if (Input.GetButton("Fire1"))
-        {
-            anim.SetBool("shoot", true);
-        }
-        else
-        {
-            anim.SetBool("shoot", false);
-        }
 
         Debug.Log(xDir);
         rb.velocity = new Vector2(speed * xDir * Time.deltaTime, rb.velocity.y);
     }
 }
+
+
+/* old code
+ 
+// old animator switch cases
+        //switch (xDir)
+        //{
+        //    case 1:
+        //        break;
+        //    case -1:
+        //    anim.SetInteger("direction", -1);
+        //    anim.SetFloat("xVel", -1);
+        //        break;
+        //    default:
+        //    anim.SetFloat("xVel", 0);
+        //        break;
+        //}
+
+
+        if (isGrounded)
+            anim.SetBool("isGrounded", true);
+        else 
+            anim.SetBool("isGrounded", false);
+ 
+ */
