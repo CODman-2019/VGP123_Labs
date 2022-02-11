@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 532682110736235482
     second: Bomb
+  - first:
+      213: -4989822435907959179
+    second: UI-Player health
+  - first:
+      213: -5310648398534454000
+    second: UI Missiles
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -315,7 +321,7 @@ TextureImporter:
         width: 20
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,7 +342,7 @@ TextureImporter:
         width: 20
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,6 +350,48 @@ TextureImporter:
       bones: []
       spriteID: adb73a4be87746700800000000000000
       internalID: 532682110736235482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI-Player health
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 736
+        width: 55
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5768e678ee690cab0800000000000000
+      internalID: -4989822435907959179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Missiles
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 714
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0155b562b69cc46b0800000000000000
+      internalID: -5310648398534454000
       vertices: []
       indices: 
       edges: []

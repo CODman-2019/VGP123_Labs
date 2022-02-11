@@ -16,7 +16,8 @@ public class Player : MonoBehaviour
 
     Animator anim;
     Rigidbody2D rb;
-    bool isGrounded;
+    bool isGrounded, takeDamage;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class Player : MonoBehaviour
         anim.SetInteger("direction", 1);
         anim.SetFloat("xVel", 0);
         anim.SetBool("isGrounded", true);
+        takeDamage = false;
     }
 
     // Update is called once per frame
@@ -45,7 +47,7 @@ public class Player : MonoBehaviour
             anim.SetFloat("xVel", 0);
         }
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundMask);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.5f, groundMask);
 
         anim.SetBool("isGrounded", isGrounded);
         
@@ -55,11 +57,46 @@ public class Player : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
 
-
-        Debug.Log(xDir);
+        //Debug.Log(xDir);
         rb.velocity = new Vector2(speed * xDir * Time.deltaTime, rb.velocity.y);
+        //add lava damage
+
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Damage")
+        {
+            takeDamage = true;
+            StartCoroutine("EnivornmentDamage");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Damage")
+        {
+            takeDamage = false;
+            StopCoroutine("EnivornmentDamage");
+            Debug.Log("out of lava");
+        }
+    }
+
+    IEnumerator EnivornmentDamage()
+    {
+        Debug.Log("in lava");
+        while (true)
+        {
+            yield return new WaitForSeconds(2f);
+            if (takeDamage)
+            {
+                //deal damage to player
+                Debug.Log("in lava");
+            }
+        }
     }
 }
+
+
 
 
 /* old code
