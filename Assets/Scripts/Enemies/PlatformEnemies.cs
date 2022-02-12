@@ -34,5 +34,10 @@ public class PlatformEnemies : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+        else if(collision.gameObject.tag == "Edge")
+        {
+            direction *= -1;
+        }
     }
+
 }
