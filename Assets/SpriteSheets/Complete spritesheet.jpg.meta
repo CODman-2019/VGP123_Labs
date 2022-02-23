@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -5310648398534454000
     second: UI Missiles
+  - first:
+      213: -9146445740184167993
+    second: Turret
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -296,7 +299,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 377
-        y: 567
+        y: 568
         width: 19
         height: 20
       alignment: 0
@@ -363,7 +366,7 @@ TextureImporter:
         width: 55
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -384,7 +387,7 @@ TextureImporter:
         width: 31
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -392,6 +395,27 @@ TextureImporter:
       bones: []
       spriteID: 0155b562b69cc46b0800000000000000
       internalID: -5310648398534454000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 590
+        width: 61
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c910fa2f0c411180800000000000000
+      internalID: -9146445740184167993
       vertices: []
       indices: 
       edges: []

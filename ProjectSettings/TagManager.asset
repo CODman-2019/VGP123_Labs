@@ -10,6 +10,8 @@ TagManager:
   - Floor
   - Shot_P
   - Edge
+  - Level
+  - Door
   layers:
   - Default
   - TransparentFX
