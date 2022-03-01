@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 
     Animator anim;
     Rigidbody2D rb;
-    bool isGrounded, takeDamage;
+    bool isGrounded, enviroDamage;
 
 
     // Start is called before the first frame update
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         anim.SetInteger("direction", 1);
         anim.SetFloat("xVel", 0);
         anim.SetBool("isGrounded", true);
-        takeDamage = false;
+        enviroDamage = false;
     }
 
     // Update is called once per frame
@@ -66,16 +66,33 @@ public class Player : MonoBehaviour
     {
         if(collision.gameObject.tag == "Damage")
         {
-            takeDamage = true;
+            enviroDamage = true;
             StartCoroutine("EnivornmentDamage");
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Shot_E")
+        {
+            GameManager.manager.playerLives--;
+            Debug.Log("Lives: " + GameManager.manager.playerLives);
+            checkHealth();
+        }
+
+    }
+
+
+    void checkHealth()
+    {
+        if (GameManager.manager.playerLives < 0)
+            GameManager.manager.GameOver();
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Damage")
         {
-            takeDamage = false;
+            enviroDamage = false;
             StopCoroutine("EnivornmentDamage");
             Debug.Log("out of lava");
         }
@@ -87,7 +104,7 @@ public class Player : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(2f);
-            if (takeDamage)
+            if (enviroDamage)
             {
                 //deal damage to player
                 Debug.Log("in lava");

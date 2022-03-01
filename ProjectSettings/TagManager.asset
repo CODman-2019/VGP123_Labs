@@ -12,6 +12,8 @@ TagManager:
   - Edge
   - Level
   - Door
+  - Enemy
+  - Shot_E
   layers:
   - Default
   - TransparentFX
