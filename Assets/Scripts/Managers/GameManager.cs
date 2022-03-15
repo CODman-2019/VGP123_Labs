@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         playerLives = startingLives;
+        CanvasManager.canvasUI.SwitchToGameUI();
         SceneManager.LoadScene("Level");
     }
 
