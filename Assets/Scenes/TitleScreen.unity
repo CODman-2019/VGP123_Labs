@@ -827,6 +827,7 @@ MonoBehaviour:
   titleMusic: {fileID: 8300000, guid: 97c51350f94740a45a456ddf660e5d31, type: 3}
   levelMusic: {fileID: 8300000, guid: 653c7cf2a1fa85c488c8b2892cbc718b, type: 3}
   gameOverMusic: {fileID: 8300000, guid: aa22c44a5b33ea842b4ca9f3064a971c, type: 3}
+  victoryClip: {fileID: 8300000, guid: 3de561d367a6ee040a3d87e656b09d80, type: 3}
 --- !u!4 &826774873
 Transform:
   m_ObjectHideFlags: 0
@@ -854,7 +855,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.504
   m_Pitch: 1
   Loop: 0
   Mute: 0

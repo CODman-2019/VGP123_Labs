@@ -8,8 +8,8 @@ public class SceneTasks : MonoBehaviour
     public enum SceneType
     {
         Title,
-        //Level,
-        GameOver
+        GameOver,
+        Victory
     }
 
     // Update is called once per frame
@@ -22,6 +22,10 @@ public class SceneTasks : MonoBehaviour
                     GameManager.manager.StartGame();
                 break;
             case SceneType.GameOver:
+                if (Input.GetKeyDown(KeyCode.Escape))
+                    GameManager.manager.RestartGame();
+                break;
+            case SceneType.Victory:
                 if (Input.GetKeyDown(KeyCode.Escape))
                     GameManager.manager.RestartGame();
                 break;

@@ -48,6 +48,12 @@ public class Player : MonoBehaviour
         {
             anim.SetFloat("xVel", 0);
         }
+        else if(xDir < 0 && anim.GetInteger("direction") == -1 || xDir > 0 && anim.GetInteger("direction") == 1)
+        {
+            anim.SetInteger("direction", anim.GetInteger("direction"));
+            anim.SetFloat("xVel", 1 * xDir);
+
+        }
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.5f, groundMask);
 
@@ -64,23 +70,6 @@ public class Player : MonoBehaviour
         //add lava damage
 
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Damage")
-        {
-            enviroDamage = true;
-            StartCoroutine("EnivornmentDamage");
-        }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Shot_E")
-        {
-            TakePlayerHealth();
-        }
-
-    }
-
     void TakePlayerHealth()
     {
         GameManager.manager.playerLives--;
@@ -95,6 +84,27 @@ public class Player : MonoBehaviour
     {
         if (GameManager.manager.playerLives <= 0)
             GameManager.manager.GameOver();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Damage")
+        {
+            enviroDamage = true;
+            StartCoroutine("EnivornmentDamage");
+        }
+        if(collision.gameObject.tag == "Finish")
+        {
+            GameManager.manager.Victory();
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Shot_E")
+        {
+            TakePlayerHealth();
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)

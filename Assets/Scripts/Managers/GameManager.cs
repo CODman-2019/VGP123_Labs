@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public AudioClip titleMusic;
     public AudioClip levelMusic;
     public AudioClip gameOverMusic;
-
+    public AudioClip victoryClip;
     AudioSource musicPlayer;
     
 
@@ -67,5 +67,13 @@ public class GameManager : MonoBehaviour
         musicPlayer.clip = gameOverMusic;
         musicPlayer.loop = false;
         musicPlayer.Play();
+    }
+    public void Victory()
+    {
+        SceneManager.LoadScene("WinScreen");
+        musicPlayer.clip = victoryClip;
+        musicPlayer.loop = false;
+        musicPlayer.Play();
+        CanvasManager.canvasUI.SwitchToTitleUI();
     }
 }
