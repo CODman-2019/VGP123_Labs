@@ -76,16 +76,20 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Shot_E")
         {
-            GameManager.manager.playerLives--;
-            Debug.Log("Lives: " + GameManager.manager.playerLives);
-            CanvasManager.canvasUI.UpdateHUD();
-            checkHealth();
-            SoundManager.sound.SetAudioClip(hit);
-            SoundManager.sound.playClip();
+            TakePlayerHealth();
         }
 
     }
 
+    void TakePlayerHealth()
+    {
+        GameManager.manager.playerLives--;
+        Debug.Log("Lives: " + GameManager.manager.playerLives);
+        CanvasManager.canvasUI.UpdateHUD();
+        checkHealth();
+        SoundManager.sound.SetAudioClip(hit);
+        SoundManager.sound.playClip();
+    }
 
     void checkHealth()
     {
@@ -112,6 +116,7 @@ public class Player : MonoBehaviour
             if (enviroDamage)
             {
                 //deal damage to player
+                TakePlayerHealth();
                 Debug.Log("in lava");
             }
         }
