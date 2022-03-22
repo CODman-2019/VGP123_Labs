@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded, enviroDamage;
 
+    public AudioClip hit;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        checkHealth();
         float xDir = Input.GetAxisRaw("Horizontal");
         bool jump = Input.GetButtonDown("Jump");
         //anim.SetFloat()
@@ -76,7 +78,10 @@ public class Player : MonoBehaviour
         {
             GameManager.manager.playerLives--;
             Debug.Log("Lives: " + GameManager.manager.playerLives);
+            CanvasManager.canvasUI.UpdateHUD();
             checkHealth();
+            SoundManager.sound.SetAudioClip(hit);
+            SoundManager.sound.playClip();
         }
 
     }
@@ -84,7 +89,7 @@ public class Player : MonoBehaviour
 
     void checkHealth()
     {
-        if (GameManager.manager.playerLives < 0)
+        if (GameManager.manager.playerLives <= 0)
             GameManager.manager.GameOver();
     }
 

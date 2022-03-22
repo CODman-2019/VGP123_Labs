@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  deathClip: {fileID: 8300000, guid: ca3966a7dca69d1489d835539cd75f08, type: 3}
 --- !u!50 &9175525202704633782
 Rigidbody2D:
   serializedVersion: 4

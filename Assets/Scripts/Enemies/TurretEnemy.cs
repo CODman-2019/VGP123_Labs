@@ -8,6 +8,7 @@ public class TurretEnemy : MonoBehaviour
     [SerializeField] float projectileForce;
     [SerializeField] float projectileFireRate;
     [SerializeField] float fireRange;
+    public AudioClip deathClip;
 
     float currentTime;
 
@@ -69,10 +70,22 @@ public class TurretEnemy : MonoBehaviour
             temp.speed = projectileForce;
         }
     }
-    private void OnCollisionEnter2D(Collision2D col)
+    //private void OnCollisionEnter2D(Collision2D col)
+    //{
+    //    if (col.gameObject.tag == "Shot_P")
+    //    {
+    //        SoundManager.sound.SetAudioClip(deathClip);
+    //        SoundManager.sound.playClip();
+    //        Destroy(gameObject);
+    //    }
+    //}
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Shot_P")
         {
+            SoundManager.sound.SetAudioClip(deathClip);
+            SoundManager.sound.playClip();
+            Destroy(col.gameObject);
             Destroy(gameObject);
         }
     }

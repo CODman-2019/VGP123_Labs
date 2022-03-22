@@ -13,8 +13,9 @@ public class CanvasManager : MonoBehaviour
     //public Button returnToGameButton;
 
     public GameObject mainMenu;
-    //public GameObject HUD;
+    public GameObject HUD;
     public GameObject pauseMenu;
+    public Text healthDisplay;
     //public GameObject GameOver;
     private void Awake()
     {
@@ -23,21 +24,31 @@ public class CanvasManager : MonoBehaviour
     }
     private void Start()
     {
+        HUD.SetActive(true);
+        HUD.SetActive(false);
         pauseMenu.SetActive(false);
     }
 
     public void SwitchToGameUI()
     {
         mainMenu.SetActive(false);
+        HUD.SetActive(true);
         pauseMenu.SetActive(false);
     }
 
     public void SwitchToTitleUI()
     {
         mainMenu.SetActive(true);
+        HUD.SetActive(false);
         pauseMenu.SetActive(false);
     }
 
+    public void SwitchToGameOver()
+    {
+        mainMenu.SetActive(false);
+        HUD.SetActive(false);
+        pauseMenu.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -63,12 +74,12 @@ public class CanvasManager : MonoBehaviour
             }
         }
     }
-    public void ReturnToTitleScreen()
-    {
-        SceneManager.LoadScene("TitleScreen");
-        SwitchToTitleUI();
-    }
+    
 
+    public void UpdateHUD()
+    {
+        healthDisplay.text = GameManager.manager.playerLives.ToString();
+    }
     // Start is called before the first frame update
     public void QuitGame()
     {

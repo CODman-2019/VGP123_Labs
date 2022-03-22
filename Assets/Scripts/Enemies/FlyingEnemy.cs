@@ -7,6 +7,7 @@ public class FlyingEnemy : MonoBehaviour
     public float speed;
     public int distance, axis;
     public float direction;
+    public AudioClip deathClip;
     //public float min, max;
 
     int distanceConuter, targetSpot;
@@ -46,6 +47,8 @@ public class FlyingEnemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Shot_P")
         {
+            SoundManager.sound.SetAudioClip(deathClip);
+            SoundManager.sound.playClip();
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }

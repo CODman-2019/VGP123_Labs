@@ -10,6 +10,7 @@ public class PlatformEnemies : MonoBehaviour
     int direction, dirForce;
     Rigidbody2D rb;
     bool move;
+    public AudioClip deathClip;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +32,12 @@ public class PlatformEnemies : MonoBehaviour
     {
         if(collision.gameObject.tag == "Shot_P")
         {
+            SoundManager.sound.SetAudioClip(deathClip);
+            SoundManager.sound.playClip();
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
-        else if(collision.gameObject.tag == "Edge")
+        if (collision.gameObject.tag == "Edge")
         {
             direction *= -1;
         }

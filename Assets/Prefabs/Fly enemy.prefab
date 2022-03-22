@@ -100,6 +100,7 @@ MonoBehaviour:
   distance: 150
   axis: 1
   direction: 1
+  deathClip: {fileID: 8300000, guid: b77f08226c62162459a34abaf2c318c0, type: 3}
 --- !u!61 &3978542985765981923
 BoxCollider2D:
   m_ObjectHideFlags: 0
